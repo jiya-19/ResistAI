@@ -1,0 +1,59 @@
+/* Custom Streamlit Styles for ResistAI */
+
+.stApp {
+    background-color: #0A0A14;
+    color: #E0E0E0;
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #00E676;
+    font-weight: 600;
+}
+
+.stButton > button {
+    background: linear-gradient(90deg, #00E676 0%, #00C853 100%);
+    color: #0A0A14;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    box-shadow: 0 4px 15px rgba(0, 230, 118, 0.4);
+    transform: translateY(-2px);
+    color: #0A0A14;
+}
+
+.metric-card {
+    background-color: #1C1E26;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-left: 4px solid #00E676;
+}
+
+div[data-testid="stMetricValue"] {
+    font-size: 2rem !important;
+    color: #00E676 !important;
+}
+
+.disclaimer {
+    background-color: rgba(239, 68, 68, 0.1);
+    border-left: 4px solid #ef4444;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size: 0.9em;
+}
+
+.recommendation-card {
+    background-color: #1C1E26;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #3b82f6;
+    margin-top: 15px;
+}
